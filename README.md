@@ -24,11 +24,11 @@ If the weights of the two networks are given by W1 and W2,
 In the training time, we tune the two networks to learn the weights W1 and W2, that maximize the CCA objective.
 
 ## Implementation of DCCA on Noisy MNIST 
-As discussed in the [On Deep Multi-view Representation Learning](http://proceedings.mlr.press/v37/wangb15.pdf), a noisy version of MNIST dataset is generated. <br><br>
-<b>Optimizer used</b> : Adam <br>
-<b> Activation Function </b> : Sigmoid <br> 
-<b> Classifier </b> : SVM <br>
-<b> Accuracy on test data </b> : 96.64% 
+As discussed in the [On Deep Multi-view Representation Learning](http://proceedings.mlr.press/v37/wangb15.pdf), a noisy version of MNIST dataset is generated. <br>
+
+Make sure to install <br>
+keras 2.0.2 <br>
+theano 0.9.0 <br> 
 
 ## Application 
 This model can be applied on speech data. In speech data the two views being Acoustic view and Articulatory view. DCCA Acoustic features can model articulatory phenomena, improving the classifier performance. <br><br>
