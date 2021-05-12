@@ -4,8 +4,8 @@ Multi-view representation learning with DCCA
 ## Representation Learning 
 This involves extracting features from the unlabeled input data by training a neural network. So that, we can learn good representations for the unlabeled data, and then use these representations to solve the supervised learning task. Modelling the input data in this way, helps in “understanding” the input data and making the further supervised learning task easier.
 
-This makes the machine learning task easier:
-○ Fewer examples will be needed for the prediction/classification task if relevant aspects of the input are already modeled.
+This makes the machine learning task easier:<br>
+○ Fewer examples will be needed for the prediction/classification task if relevant aspects of the input are already modeled. <br>
 ○ Rich abstract representation of the data can make the prediction task simpler to be modeled. 
 
 ## Correlated Representations with CCA
